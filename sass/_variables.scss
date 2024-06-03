@@ -1,0 +1,97 @@
+@mixin list_num {
+  width: 48px;
+  height: 48px;
+  font-weight: 700;
+  font-size: 24px;
+  color: #fff;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid transparent;
+}
+
+@mixin list_text {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 120%;
+  color: #fff;
+}
+
+@mixin bgСircle_num_1 {
+  background: linear-gradient(180deg, rgb(41, 32, 165), rgb(99, 119, 225) 100%)
+      padding-box,
+    linear-gradient(180deg, rgb(43, 35, 167), rgb(146, 160, 234) 100%)
+      border-box;
+}
+
+@mixin bgСircle_num_2 {
+  background: linear-gradient(
+        180deg,
+        rgb(116, 21, 149) 0%,
+        rgb(225, 99, 225) 100%
+      )
+      padding-box,
+    linear-gradient(180deg, rgb(119, 23, 151), rgb(234, 147, 234) 100%)
+      border-box;
+}
+
+@mixin bgСircle_num_3 {
+  background: linear-gradient(
+        180deg,
+        rgb(1, 77, 29) 0%,
+        rgb(85, 206, 0) 100% 100%
+      )
+      padding-box,
+    linear-gradient(180deg, rgb(6, 83, 30), rgb(137, 219, 80) 100%) border-box;
+}
+
+@mixin bgFrame__step_1 {
+  background: linear-gradient(180deg, #6377e1 0%, #2920a5 100%) padding-box,
+    linear-gradient(180deg, rgb(149, 163, 235), rgb(72, 96, 223) 100%)
+      border-box;
+  position: relative;
+}
+
+@mixin bgFrame__step_1_hover {
+  background: linear-gradient(180deg, #657eff 0%, #2920a5 100%) padding-box,
+    linear-gradient(180deg, rgb(149, 163, 235), rgb(72, 96, 223) 100%)
+      border-box;
+}
+
+@mixin bgFrame__step_2 {
+  background: linear-gradient(180deg, #e163e1 0%, #741595 100%) padding-box,
+    linear-gradient(180deg, rgb(252, 153, 252), rgb(178, 72, 223) 100%)
+      border-box;
+  position: relative;
+}
+
+@mixin bgFrame__step_2_hover {
+  background: linear-gradient(180deg, #fc69fc 0%, #741595 100%) padding-box,
+    linear-gradient(180deg, rgb(252, 153, 252), rgb(178, 72, 223) 100%)
+      border-box;
+}
+
+@mixin bgFrame__step_3 {
+  background: linear-gradient(180deg, #55ce00 0%, #014d1d 100%) padding-box,
+    linear-gradient(180deg, rgb(144, 234, 83), rgb(60, 131, 10) 100%) border-box;
+}
+
+@mixin bgFrame__step_3_hover {
+  background: linear-gradient(180deg, #5de101 0%, #014d1d 100%) padding-box,
+    linear-gradient(180deg, rgb(144, 234, 83), rgb(60, 131, 10) 100%) border-box;
+}
+
+@mixin bgFrame__step_1_media {
+  background: linear-gradient(180deg, #6377e1 0%, #2920a5 100%) padding-box,
+    linear-gradient(180deg, rgb(149, 163, 235), rgb(72, 96, 223) 100%)
+      border-box;
+  position: relative;
+}
+
+@mixin bgFrame__step_2_media {
+  background: linear-gradient(180deg, #e163e1 0%, #741595 100%) padding-box,
+    linear-gradient(180deg, rgb(252, 153, 252), rgb(178, 72, 223) 100%)
+      border-box;
+  position: relative;
+}

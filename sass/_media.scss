@@ -1,0 +1,141 @@
+@import "./_variables.scss";
+
+// @media screen and (max-width: 361px) {
+//   .wrapper {
+//     width: 360px;
+//     height: 1352px;
+//     margin: 0 auto;
+//     display: flex;
+//     flex-direction: column;
+//   }
+
+//   .wrapper-h1 {
+//     max-width: 260px;
+//     padding-top: 8px;
+//     margin-bottom: 30px;
+
+//     h1 {
+//       font-size: 24px;
+//       font-weight: bold;
+//     }
+//   }
+
+//   .section {
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: space-between;
+//     align-items: center;
+//     width: 336px;
+//     height: 1080px;
+//     margin-left: 100px;
+//     border: 4px solid transparent;
+//     border-radius: 24px;
+//     box-shadow: 0 24px 48px 0 rgba(23, 43, 151, 0.72);
+//     margin-bottom: 70px;
+//     cursor: pointer;
+//     background: linear-gradient(
+//           180deg,
+//           rgba(107, 125, 222, 0.12) 0%,
+//           #2921a5 100%
+//         )
+//         padding-box,
+//       linear-gradient(180deg, rgb(201, 207, 239), rgb(106, 120, 196) 100%)
+//         border-box;
+
+//     &__step {
+//       width: 419px;
+//       height: 352px;
+//       border-radius: 20px;
+//       border: 2px solid transparent;
+//       &:hover {
+//         border: 6px solid transparent;
+//       }
+//       &__list {
+//         display: flex;
+//         width: 363px;
+//         height: 48px;
+//         margin: 20px 0 0px 20px;
+
+//         &_num {
+//           @include list_num;
+//         }
+
+//         &_num_1 {
+//           @include bgСircle_num_1;
+//         }
+//         &_num_2 {
+//           @include bgСircle_num_2;
+//         }
+//         &_num_3 {
+//           @include bgСircle_num_3;
+//         }
+
+//         &_text {
+//           @include list_text;
+//           margin-left: 16px;
+//         }
+//       }
+
+//       &_img {
+//         width: 419px;
+//         height: 320px;
+
+//         img {
+//           display: block;
+//           margin: 35px auto;
+//         }
+//         &_mt:nth-child(1) {
+//           margin: 0 auto;
+//         }
+//         .section__step_img_mt_3 {
+//           margin: 20px auto;
+//         }
+//       }
+//     }
+
+//     &__step_1 {
+//       // background: linear-gradient(180deg, #6377e1 0%, #2920a5 100%);
+//       @include bgFrame__step_1;
+//       &:hover {
+//         @include bgFrame__step_1_hover;
+//       }
+//     }
+//     &__step_2 {
+//       //  background: linear-gradient(180deg, #e163e1 0%, #741595 100%);
+//       @include bgFrame__step_2;
+//       &:hover {
+//         @include bgFrame__step_2_hover;
+//       }
+//     }
+//     &__step_3 {
+//       @include bgFrame__step_3;
+//       &:hover {
+//         @include bgFrame__step_3_hover;
+//       }
+//     }
+//   }
+
+//   .wrapper-button {
+//     width: 220px;
+//     height: 48px;
+//     margin-left: 0px;
+//     color: white;
+//     display: flex;
+//     justify-content: space-evenly;
+//     align-items: center;
+//     font-size: 18px;
+//     border: 3px solid rgba(149, 255, 75, 0.64);
+//     border-radius: 16px;
+//     cursor: pointer;
+//     background: linear-gradient(180deg, #55ce00 0%, #014d1d 100%) padding-box,
+//       linear-gradient(180deg, rgb(144, 234, 83), rgb(60, 131, 10) 100%)
+//         border-box;
+//     box-shadow: 0 4px 8px 0 rgba(61, 147, 0, 0.48),
+//       0 0 0 4px rgba(91, 192, 20, 0.24);
+//     &:hover {
+//       border: 4px solid rgba(149, 255, 75, 0.64);
+//       box-shadow: 0 4px 8px 0 rgba(61, 147, 0, 0.48),
+//         0 0 0 8px rgba(91, 192, 20, 0.24);
+//     }
+//   }
+// }
